@@ -1,4 +1,10 @@
-body {
+body 
+{
 cursor:url(Media/cursornana.png), auto;
 }
 
+a:hover, 
+button:hover 
+{
+cursor: url(media/peeledcursornana.png), auto;
+}
