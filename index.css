@@ -1,13 +1,15 @@
-body 
-{
-cursor:url(Media/cursornana.png), auto;
+body {
+
+cursor:url(media/cursornana.png), auto;
 }
 
-a:hover, 
-button:hover 
-{
+a:hover { 
 cursor: url(media/peeledcursornana.png), auto;
+  
+  }
+  
+.auto {
+cursor: url(media/peeledcursornana.png), auto;
+
 }
-
-
 
