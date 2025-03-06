@@ -4,12 +4,12 @@ cursor:url(media/cursornana.png), auto;
 }
 
 a:hover { 
-cursor: url(media/peeledcursornana.png), auto;
+cursor:url(media/cursornana.png), auto;
   
   }
   
 .auto {
-cursor: url(media/peeledcursornana.png), auto;
+cursor:url(media/cursornana.png), auto;
 
 }
 
