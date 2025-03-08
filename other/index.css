@@ -1,0 +1,36 @@
+body 
+{
+
+    cursor:url(media/cursornana.png), auto;
+    text-align: center;
+    
+}
+    
+a:hover 
+{ 
+    
+    cursor:url(media/cursornana.png), auto;
+      
+}
+      
+.auto 
+{
+
+    cursor:url(media/cursornana.png), auto;
+    
+}
+    
+.flex 
+{
+    display:flex;
+    justify-content:center;
+}
+
+aside 
+{
+
+    margin:5px;
+    width:100%;
+    
+}
+

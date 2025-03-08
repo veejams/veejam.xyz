@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DON'T HURT HIM!!!!</title>
+    <link rel="icon" href="media/VEEJAMICON.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<center style="margin-top: 200px;">
+    <div class="image container" id="lH">
+        <input type="image" src="/media/caterpillar.png" width="30" height="30" alt="meow :3" id="images" onclick="audio.play()">
+    </div>
+</center>
+<script src="index.js"></script>
+        
+
+<script>
+    var audio = new Audio("/media/explod.wav");
+    
+    audio.oncanplaythrough = function(){
+    audio.play();
+    }
+    
+    audio.loop = false;
+    
+    audio.onended = function(){
+    audio.stop();
+    }
+    
+</script>
+    
+   
+    
+
+</body>
+
+</html>
