@@ -27,65 +27,87 @@
     </nav>
     <p style="margin-top: 0px;margin-bottom: 5px;"></p>
         
-    </header>
-<center>
-<p style="margin-top: 5px;margin-bottom: 5px;">
-<a href='https://ko-fi.com/veejam' target='_blank'><img height='65' img width='65' style='border:0px;height:65px;width:65px' src='media/kofi.gif' border='0' alt='Ko-Fi!' /></a> 
-<br>
-<a>Commission Me!</a>
-    <br>
-</p>
-</center>
+</header>
 
 
+    
+<div class="flex">
+   
+    <aside style="width:200px;position:relative;">
+        <div><h1 style="color:rgb(0, 0, 0)">Visual</h1></div>
+        
+            <p><a target="_blank" href="visual/3d-modelling.html">3D Models</a>
+            <br><a target="_blank" href="visual/art.html">Art</a>
+            </p>
+        
+    </aside>
+            
+    <aside style="width:200px;position:relative;">
+        <div><h1 style="color:rgb(0, 0, 0)">Sound</h1></div>
 
+            <p><a target="_blank" href="sound/music.html">Music</a>
+            <br><a target="_blank" href="sound/sound-design.html">Sound Design</a>
+            <br><a target="_blank" href="construction.html">Old Music Archive</a>
+            </p>
 
-<div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:center;align-content:stretch">
-    <ul style="display:flex;flex-direction:row;align-items:center;gap:1rem;margin:0;padding:0;list-style-type:none;flex-wrap:wrap">
+    </aside>
 
-        <li>
-            <h1 style="color:rgb(0, 0, 0)"><img src="media/funny emoji guy.gif" alt="funny emoji fella">Visual<img src="media/funny emoji guy.gif" alt="funny emoji fella"></h1>
-            <ul style="align-items:center;gap:1rem;margin:0;padding:0 1rem 0 0;list-style-type:none;flex-wrap:wrap">
-                <center>
-                <li>
-                    <a target="_blank" href="visual/3d-modelling.html">3D Models</a>
-                </li>
-                <li>
-                    <a target="_blank" href="visual/art.html">Art</a>
-                </li>
-                </center>
-            </ul>
-        </li>
-    <ul style="display:flex;flex-direction:row;align-items:center;gap:1rem;margin:0;padding:0;list-style-type:none;flex-wrap:wrap">
+    <aside style="width:200px;position:relative;">
+        <div><h1 style="color:rgb(0, 0, 0)">Blog</h1></div>
 
-        <li>
-            <h1 style="color:rgb(0, 0, 0)"><img src="media/bouncy guys.gif" alt="funny emoji fella">Sound<img src="media/bouncy guys.gif" alt="funny emoji fella"></h1>
-            <ul style="align-items:center;gap:1rem;margin:0;padding:0;list-style-type:none;flex-wrap:wrap">
-                <center>
-                <li>
-                    <a target="_blank" href="sound/music.html">Music</a>
-                </li>
-                <li>
-                    <a target="_blank" href="sound/sound-design.html">Sound Design</a>
-                </li>
-                </center>
-            </ul>
-           
-        </li>
-    </ul>
-    <ul style="display:flex;flex-direction:row;align-items:center;gap:1rem;margin:0;padding:0;list-style-type:none;flex-wrap:wrap">
+            <p><a target="_blank" href="blog/blog1.html">06/03/25 » Test</a>
+            <br>
+            </p>
 
-        <li>
-            <h1 style="color:rgb(0, 0, 0)"><img src="media/pretty emoji guy.gif" alt="funny emoji fella">Blog<img src="media/pretty emoji guy.gif" alt="funny emoji fella"></h1>
-            <center>
-                <li>
-                    <a target="_blank" href="blog/blog1.html">test idk</a>
-                </li>
-            </center>
-           
-        </li>
-    </ul>
+    </aside>
+
+    <aside style="width:200px;position:relative;">
+        <div><h1 style="color:rgb(0, 0, 0)">Other</h1></div>
+
+            <p><a target="_blank" href="construction.html">Placeholder</a>
+            <br>
+            </p>
+
+    </aside>
+            
+            
 </div>
+<div>
+    <p style="margin-top: 5px;margin-bottom: 5px;">
+    <a href='https://ko-fi.com/veejam' target='_blank'><img height='65' img width='65' style='border:0px;height:65px;width:65px' src='media/kofi.gif' border='0' alt='Ko-Fi!' /></a> 
+    <br>
+    <a>Commission Me!</a>
+        <br>
+    </p>
+</div>
+<br>
+
+
+<center style="margin-top: 500px;">
+    <div class="image container" id="lH">
+        <input type="image" src="/media/caterpillar.png" width="30" height="30" alt="meow :3" id="images" onclick="audio.play()">
+    </div>
+</center>
+<script src="index.js"></script>
+        
+
+<script>
+    var audio = new Audio("/media/explod.wav");
+    
+    audio.oncanplaythrough = function(){
+    audio.play();
+    }
+    
+    audio.loop = false;
+    
+    audio.onended = function(){
+    audio.stop();
+    }
+    
+</script>
+    
+   
+    
 
 </body>
 

@@ -1,15 +1,36 @@
-body {
+body 
+{
 
-cursor:url(media/cursornana.png), auto;
+    cursor:url(media/cursornana.png), auto;
+    text-align: center;
+    
+}
+    
+a:hover 
+{ 
+    
+    cursor:url(media/cursornana.png), auto;
+      
+}
+      
+.auto 
+{
+
+    cursor:url(media/cursornana.png), auto;
+    
+}
+    
+.flex 
+{
+    display:flex;
+    justify-content:center;
 }
 
-a:hover { 
-cursor:url(media/cursornana.png), auto;
-  
-  }
-  
-.auto {
-cursor:url(media/cursornana.png), auto;
+aside 
+{
 
+    margin:5px;
+    width:100%;
+    
 }
 
