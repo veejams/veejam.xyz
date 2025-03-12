@@ -33,7 +33,9 @@ h1
     padding: 2% 20% 2% 20%
     
 }
-  
+
+
+
 p2  
 {
     float:left;
@@ -45,9 +47,8 @@ p2
     
 }
   
-
-  
-  body.alt {
+body.alt 
+{
     background-image: url('/blog/media/skull-laughter.gif');
     background-size: 10%;
-  }
+}

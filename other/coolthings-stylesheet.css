@@ -21,12 +21,24 @@ a:hover
     
 h1 
 {
-    margin-top:5%;
+    margin-top: 0px;
     margin-bottom:2%;
-    letter-spacing: -0.8px;
-    
+    font-size: 40px;
+    letter-spacing: -2.4px;
 }
   
+h2
+{
+    letter-spacing: -1px;
+    font-size: 25px;
+}
+
+h3
+{
+    letter-spacing: -1px;
+    font-size: 17px;
+}
+
 .center_column 
 {
     padding: 2% 7% 2% 7%

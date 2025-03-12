@@ -1,0 +1,51 @@
+body 
+{
+
+    
+    text-align: center;
+    font-family: 'Times New serif';
+}
+    
+html
+{
+    cursor:url(media/cursornana.png), auto;
+}
+      
+a
+{
+    cursor:url(media/peeledcursornana.png), auto;
+}
+    
+.flex 
+{
+    display:flex;
+    justify-content:center;
+}
+
+aside 
+{
+
+    margin:5px;
+    width:100%;
+    
+}
+
+
+a:visited{
+    color:rgb(128, 0, 255)
+  }
+
+  h1 {
+    font-size: 36px;
+    letter-spacing: -2px;
+
+    margin-top: 15px;
+    margin-bottom: -10px;
+    
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 10px;
+  }
+
