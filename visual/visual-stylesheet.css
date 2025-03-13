@@ -1,0 +1,58 @@
+body 
+{
+
+    cursor:url(media/cursornana.png), auto;
+    
+}
+html 
+{
+    cursor:url(media/cursornana.png), auto;
+    font-family: "Times New Roman", Times, serif;
+}
+
+a
+{
+    cursor:url(media/peeledcursornana.png), auto;
+}    
+a:hover 
+{ 
+    
+    color:rgb(255, 0, 0)    
+      
+}
+      
+    
+h1 
+{
+    margin-top: 0px;
+    margin-bottom:2%;
+    font-size: 40px;
+    letter-spacing: -2.4px;
+}
+  
+h2
+{
+    letter-spacing: -1.5px;
+    font-size: 20px;
+}
+
+h3
+{
+    letter-spacing: -1px;
+    font-size: 17px;
+}
+
+.center_column 
+{
+    padding: 2% 7% 2% 7%
+    
+}
+  
+p2  
+{
+    float:left;
+}
+
+
+  
+    
